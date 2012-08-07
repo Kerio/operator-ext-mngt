@@ -1,0 +1,219 @@
+/* CSS Document */
+
+body {
+background-color: rgb(160,160,160);
+}
+
+div {
+ background-color: white;
+ /*border: 1px solid green;  */   
+}
+
+/*page container*/
+#all {
+ width: 992px;
+ min-height: 800px;
+ margin: 15px auto;
+ padding: 6px 0px 6px 0px;
+ font-family: Calibri;
+ color: rgb(48,16,0);
+ border: 3px solid black; 
+}
+
+h3 {
+ text-align: left;
+}
+
+a, a:visited {
+ text-decoration: none;
+ color: rgb(150,16,0);
+ 
+}
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+ border: none;
+}
+
+/***************************************************************************/
+/* header */
+
+
+
+#head{
+ width: 980px;  
+ height: 90px;
+ display: block;
+ margin: auto;
+ border-bottom: 2px solid black; 
+}
+
+#head img {
+ border: none;
+ float: left;
+ margin-right: 50px;
+
+}
+
+#login {
+ background: rgb(202,184,164) url(../images/grafika/pozadi_vnitrek.png) repeat-y;
+ height: 20px;
+ width: 970px;
+ margin: auto;
+ padding-right: 10px;
+ text-align: right;
+}
+
+#login_left {
+ float: left;
+}
+
+
+/***************************************************************************/
+/*Menu*/
+
+#menu {
+ width: 250px; 
+ min-height: 600px;
+ margin: auto;
+ margin-left: 10px;
+ margin-top: 10px; 
+ position:relative;
+ float: left;
+ border-right: 1px solid black;  
+}
+
+
+
+
+/***************************************************************************/
+/*Center*/
+#obsah {
+ width: 720px;
+ min-height: 600px;
+ margin: 0px auto 0px auto;
+ margin-top: 10px;
+ float: left;
+}
+
+#obsah_text {
+ width: 700px;
+ margin: 0px auto 0px auto;
+ padding-top: 6px;
+ padding-bottom: 10px;
+}
+
+table {
+ width: 100%;
+ vertical-align: middle;
+ 
+}
+
+.table_left {
+ width: 150px;    
+}
+
+#table_top {
+ background-color: antiquewhite;
+ margin-left: 10px;
+}
+
+
+.table_line {
+ border: 1px solid black; 
+ border-collapse: collapse;
+}
+
+.box_small {
+ width: 468px;
+ height: 393px;
+ margin: 5px;
+ float: left;
+ 
+}
+
+.box_text {
+ padding: 0px 10px 5px 10px;
+ text-align: justify;
+}
+
+#box_left {
+ float: left;
+}
+
+#box_right {
+ float: right;
+ text-align: right;
+}
+
+#obsah_text h2 {
+ text-align: center;
+}
+
+#obsah_dokumentu {
+ text-align: left;
+}
+.autor, #center {
+ text-align: center;
+}
+
+
+
+#box_large_top {
+ width: 957px;
+ height: 15px;
+ background: url(../images/grafika/obsah_top.png) no-repeat;
+ 
+}
+
+.box_large_center {
+ width: 937px;
+ min-height: 600px;
+ background: url(../images/grafika/obsah_center.png) repeat-y;
+ padding: 1px 10px 1px 10px;
+ text-align: justify;
+ 
+}
+
+#box_large_bottom {
+ width: 957px;
+ height: 15px;
+ background: url(../images/grafika/obsah_bottom.png) no-repeat;
+}
+
+#box_clear {
+ clear: left;
+}
+
+
+/***************************************************************************/
+/*Footer*/
+#footer {
+ width: 980px;
+ height: 47px;
+ margin: 10px auto 0px auto;
+ padding-top: 1px;
+ text-align: center;
+ border-top: 1px solid black;  
+}
+
+#footer a{
+ text-decoration: none;
+ color: rgb(48,16,0);
+}
+
+#footer_autor {
+ margin-left: 100px;  
+}                       
+
+/***************************************************************************/
+/*Print settings*/
+@media print {
+
+    #head, #menu, #footer, #box_left {
+        display: none;
+    }
+      
+}
