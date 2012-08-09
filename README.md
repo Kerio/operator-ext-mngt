@@ -3,7 +3,7 @@ External administration of users and extensions
 
 A tiny application which would allow any person to administer users and extensions on the Kerio Operator server without the need to authenticate at the web administration.
 
-The application was developed by a students of the [ZČU Plzeň](http://www.zcu.cz/en/) (University of West Bohemia in Pilsen) as a thesis on regular basic. 
+The application was developed by students of the [ZČU Plzeň](http://www.zcu.cz/en/) (University of West Bohemia in Pilsen) as a thesis on regular basic. 
 
 For more information see [http://www.kerio.com/blog/kerio-api-university](http://www.kerio.com/blog/kerio-api-university)
 
